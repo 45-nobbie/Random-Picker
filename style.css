@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Default text color for light mode */
+    background-color: #fff; /* Default background color for light mode */
+}
+
+.dark-mode {
+    color: #eee; /* Text color for dark mode */
+    background-color: #333; /* Background color for dark mode */
+}
+
+#container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#choices, #result {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #eee; /* Consistent background for light/dark */
+    border: 1px solid #ccc; /* Consistent border for light/dark */
+}
+
+#result {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#pick-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#dark-mode-btn {
+    background-color: #ccc;
+    color: #333;
+}
+
+button:hover {
+    opacity: 0.8;
+}
